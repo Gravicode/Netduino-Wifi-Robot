@@ -1,0 +1,5 @@
+C:\DEV\Experiment\MQTT_IOT\Netduino-Mqtt-Sample\Mqtt\M2Mqtt\obj\Debug\M2Mqtt.Net.csprojResolveAssemblyReference.cache
+C:\DEV\Experiment\MQTT_IOT\Netduino-Mqtt-Sample\Mqtt\bin\Debug\M2Mqtt.Net\M2Mqtt.Net.dll
+C:\DEV\Experiment\MQTT_IOT\Netduino-Mqtt-Sample\Mqtt\bin\Debug\M2Mqtt.Net\M2Mqtt.Net.pdb
+C:\DEV\Experiment\MQTT_IOT\Netduino-Mqtt-Sample\Mqtt\M2Mqtt\obj\Debug\M2Mqtt.Net.dll
+C:\DEV\Experiment\MQTT_IOT\Netduino-Mqtt-Sample\Mqtt\M2Mqtt\obj\Debug\M2Mqtt.Net.pdb

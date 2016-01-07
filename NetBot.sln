@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetBot", "NetBot\NetBot.csproj", "{EA4CF97C-8943-4097-B258-4915FD288508}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NetBotWeb", "NetBotWeb\", "{3A648F6F-6323-4790-87F4-37516F7436B2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/NetBotWeb"
+		Debug.AspNetCompiler.PhysicalPath = "NetBotWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NetBotWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NetBotWeb"
+		Release.AspNetCompiler.PhysicalPath = "NetBotWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NetBotWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "18535"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.NetMf43", "Mqtt\M2Mqtt\M2Mqtt.NetMf43.csproj", "{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.Net", "Mqtt\M2Mqtt\M2Mqtt.Net.csproj", "{A11AEF5A-B246-4FE8-8330-06DB73CC8074}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA4CF97C-8943-4097-B258-4915FD288508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4CF97C-8943-4097-B258-4915FD288508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4CF97C-8943-4097-B258-4915FD288508}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EA4CF97C-8943-4097-B258-4915FD288508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4CF97C-8943-4097-B258-4915FD288508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4CF97C-8943-4097-B258-4915FD288508}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3A648F6F-6323-4790-87F4-37516F7436B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A648F6F-6323-4790-87F4-37516F7436B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A648F6F-6323-4790-87F4-37516F7436B2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A648F6F-6323-4790-87F4-37516F7436B2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
